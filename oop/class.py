@@ -43,13 +43,13 @@ selfلذم استخدام
 
 '''
 
-# class myTset():
-#     def text(self):
-#         print(self)
-#         print("hghghghghgh")
+class myTset():
+    def text(self):
+        print(self)
+        print("hghghghghgh")
 
-# x = myTset()
-# x.text()
+x = myTset()
+x.text()
 class student:
     def st_student(self , name , age):
         self.name = name
