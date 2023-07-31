@@ -6,7 +6,7 @@ class student:
         print(f"wicome {name} to the schoot ")
 
     def addMarks (self , marks):
-        self.marks.append(mark)
+        self.marks.append("mark")
     
-x= student()
-x.name= "hassan"
+# x= student()
+# x.name= "hassan"
