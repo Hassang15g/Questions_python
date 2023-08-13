@@ -58,6 +58,37 @@ Commands:
 
 '''
 
+# Renaming & Deleting Files
+# يعني اعمل تعديل علي اسم الملف او حزف الملف 
+'''
+للعمل تعديل 
+import os 
+
+os.rename(" السم الجديد " , "السم القديم")
+
+لحذف الملف 
+os.remove(السم الملف)
+
+Directories pythonاسم الملف في ال
+
+للضف الملف جديد 
+os.mkdir("اسم الملف )
+
+لو عوز انتقل من الملف الي الملف 
+os.chdir("اسم الملف المفروض انتقل في")
 
 
+لو عوز اجيب المكان الذي نا في 
+os.getcwd()    مابيختش حجه
+
+
+
+'''
+
+import os
+
+os.getcwd()
+
+# os.mkdir("hasan")
+# os.remove('hasan')
 
