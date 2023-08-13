@@ -101,3 +101,57 @@ x = snms(2 ,4)
 print(x.add())
 print(x.sum())
 print(x.mull())
+
+
+# مثال 
+class cot(object):
+    def __init__(self , name):
+        self.name=name
+        
+    def eat(self , food):
+        print(f"{self.name} is eating {food}")
+    
+class dag(cot):
+    def feth(self, thing):
+        print(f"{thing} get the {self.name}")
+
+x=dag("hh")
+x.eat("fff")
+x.feth("kk")
+
+
+class date(object):
+    def get_date(self):
+        return "2023 , 8 , 2"
+class time(date):
+    def get_time(self):
+        return "12:17"
+
+d=date()
+print(d.get_date())
+
+t= time()
+print(t.get_date())
+print(t.get_time())
+
+'''
+حجه مهم للمعرفه 
+ان عمليلت التورث تسمه 
+ calss لو هورث من 
+هتبق السم 
+ِAn lnheriting class:
+    :Child class
+    :Derived class
+    :Sud class
+
+class وال 
+الذي يخد الوراثه 
+يسم
+ِAn lnherited class :
+    :Parent class
+    :Base class
+    :Super class
+
+
+
+'''
