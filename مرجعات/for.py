@@ -8,13 +8,13 @@ python Tasks
 
 
 '''
-i = int(input("Blaze enter again ?" ))
-z= int(input("Blaze enter again...... ?" ))
+# i = int(input("Blaze enter again ?" ))
+# z= int(input("Blaze enter again...... ?" ))
 
-for x in range(i , z+1) :
-    for y in range (1 ,13):
-        print(x ,'*', y , '=' , x*y)
-    print("_________________")
+# for x in range(i , z+1) :
+#     for y in range (1 ,13):
+#         print(x ,'*', y , '=' , x*y)
+#     print("_________________")
 
 
 
@@ -34,4 +34,16 @@ Randint يجب استخدام  Random للستخدم المكتبه
 
 
 # random.seed(10)
-# print(random.random())
+# print(random.random()
+
+while True :
+    my_to = input("Please enter :")
+    if my_to =="x":
+        break
+    my_go= input("Play Santor :")
+    if my_go == "x":
+        break
+
+    if int(my_to ) < int(my_go) :
+        for x in range( int(my_to ) , int(my_go)+1) :
+            print(x)
