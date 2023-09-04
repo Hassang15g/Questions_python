@@ -8,10 +8,16 @@ python Tasks
 
 
 '''
-# for x in range(1 , 13) :
-#     for y in range (1 ,13):
-#         print(x ,'*', y , '=' , x*y)
-#     print("_________________")
+i = int(input("Blaze enter again ?" ))
+z= int(input("Blaze enter again...... ?" ))
+
+for x in range(i , z+1) :
+    for y in range (1 ,13):
+        print(x ,'*', y , '=' , x*y)
+    print("_________________")
+
+
+
 
 
 '''
@@ -21,7 +27,11 @@ Random بي نستخدم مكتبه
 Randint يجب استخدام  Random للستخدم المكتبه 
 لكي يستقبل رقم الاول و الرقم الثانى 
 '''
-import random
+# import random
 
-my_random = random.randint(0,10)
-print(my_random)
+# my_random = random.randint(0,10)
+# print(my_random)
+
+
+# random.seed(10)
+# print(random.random())
